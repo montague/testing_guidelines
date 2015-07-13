@@ -16,11 +16,13 @@ how-to for writing effective tests
 1. Which means that TEST CODE IS NOT APPLICATION CODE. Let's unpack
    that:
   1. Being DRY is less important than being clear. Spending time
-     refactoring test code to keep it DRY is usually a waste of time and
-can makes fixing tests painful as you unwrap your abstractions.
-  1. When a test breaks, you want to be able to see the issue ASAP. SRP
-     is important here.
+     refactoring test code to keep it DRY is often a waste of time and
+can make fixing tests painful as you unwrap your abstractions.
   1. Code that is difficult to test can (and should) usually be refactored.
+  1. Single Responsibility Principle applies here. A helper method that
+     makes assertions and is used across many different classes will
+inevitably grow in complexity as the requirements for its usage in each
+class change. It's often a better idea to write one-off helper methods in the spec files where they are used.
 1. Read betterspecs.org
 
 ## Bad Testing practices
