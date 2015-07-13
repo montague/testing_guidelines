@@ -1,6 +1,8 @@
 # testing_guidelines
 how-to for writing effective tests
 
+##TLDR; Read http://betterspecs.org
+
 ## Purposes of tests
 1. If you break something, you find out exactly what you broke as soon
    as you run the tests
