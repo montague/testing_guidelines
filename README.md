@@ -19,6 +19,7 @@ can makes fixing tests painful as you unwrap your abstractions.
   1. When a test breaks, you want to be able to see the issue ASAP. SRP
      is important here.
   1. Code that is difficult to test can (and should) usually be refactored.
+1. Read betterspecs.org
 
 ## Bad Testing practices
 
