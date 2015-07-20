@@ -1,0 +1,3 @@
+describe BadModel do
+
+end

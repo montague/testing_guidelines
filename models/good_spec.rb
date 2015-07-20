@@ -1,0 +1,3 @@
+describe GoodModel do
+
+end
