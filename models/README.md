@@ -6,5 +6,3 @@
   * active record is complicated and it's easy to use macros incorrectly
     in subtle ways
 * focusing on testability will help emphasize SRP
-```ruby
-```
