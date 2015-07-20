@@ -1,0 +1,3 @@
+describe Good do
+
+end
